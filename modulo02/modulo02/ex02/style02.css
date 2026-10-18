@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cartoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.cartao {
+    width: 220px;              /* largura do conteúdo */
+    padding: 20px;             /* espaço dentro do cartão */
+    border: 2px solid #1f4e79; /* contorno do cartão */
+    margin: 10px;              /* espaço fora do cartão */
+    box-sizing: border-box;    /* width inclui padding e border */
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* Com border-box, a largura total definida fica em 220px.
+   Sem border-box (content-box), padding e border são somados à largura. */
+.cartao h2 {
+    color: #1f4e79;
+}

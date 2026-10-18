@@ -1,0 +1,50 @@
+:root {
+    --cor-principal: #1f4e79;
+    --cor-fundo: #f4f6f8;
+    --cor-texto: #252525;
+}
+
+body {
+    font-family: Arial, sans-serif; /* font-family: tipo de letra */
+    font-size: 16px;                /* font-size: tamanho da letra */
+    line-height: 1.6;                /* line-height: espaço entre linhas */
+    font-weight: normal;             /* font-weight: espessura da letra */
+    color: var(--cor-texto);         /* color: cor do texto */
+    background: var(--cor-fundo);    /* background: fundo da página */
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background: var(--cor-principal);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2, h3 {
+    color: var(--cor-principal);     /* headings: títulos */
+}
+
+.subtitulo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.codigo {
+    background: #e3e8ed;
+    padding: 12px;
+    font-family: monospace;
+}
+
+a {
+    color: var(--cor-principal);     /* links */
+}
+
+a:hover {
+    color: #d35400;
+}

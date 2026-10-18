@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX05 - Flexbox Playground</title>
+    <link rel="stylesheet" href="style05.css">
+</head>
+<body>
+    <h1>Experiências com Flexbox</h1> 
+
+    <div>
+        <nav class="nav-container">
+            <ul class="nav">
+               <a href="#"> <li>home </li></a>
+                <a href="#"> <li>ajuda </li></a>
+                <a href="#"> <li>suporte </li></a>
+            </ul>
+        </nav>
+    </div>
+
+    <h2>1. flex-direction: row</h2>
+    <div class="layout row"><div>1</div><div>2</div><div>3</div></div>
+
+    <h2>2. justify-content: space-between</h2>
+    <div class="layout space"><div>1</div><div>2</div><div>3</div></div>
+
+    <h2>3. align-items: center</h2>
+    <div class="layout centro"><div>Baixo</div><div class="alto">Mais alto</div><div>Baixo</div></div>
+
+    <h2>4. flex-wrap e gap</h2>
+    <div class="layout wrap"><div>Cartão A</div><div>Cartão B</div><div>Cartão C</div><div>Cartão D</div><div>Cartão E</div></div>
+
+    <h2>5. flex-grow e flex-shrink</h2>
+    <div class="layout crescer"><div class="normal">Normal</div><div class="cresce">Cresce mais</div><div class="encolhe">Pode encolher</div></div>
+</body>
+</html>

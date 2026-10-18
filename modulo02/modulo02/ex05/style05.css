@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav-container{
+    padding: 10px 20px ;
+    background-color: #dde1e5;
+}
+li{
+    padding: 10px 10px;
+   list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    color: #1f4e79;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.layout {
+    display: flex;          /* ativa o Flexbox */
+    background: white;
+    border: 1px solid #bbb;
+    padding: 10px;
+    min-height: 70px;
+}
+
+.layout div {
+    background: #1f4e79;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Layout 1: itens em linha */
+.row {
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* Layout 2: espaço distribuído entre os itens */
+.space {
+    justify-content: space-between;
+}
+
+/* Layout 3: alinha os itens verticalmente ao centro */
+.centro {
+    align-items: center;
+    gap: 10px;
+}
+
+.alto {
+    min-height: 65px;
+}
+
+/* Layout 4: itens passam para outra linha se faltar espaço */
+.wrap {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Layout 5: flex-grow distribui espaço; flex-shrink permite encolher */
+.crescer {
+    gap: 8px;
+}
+
+.normal {
+    flex: 1 1 100px;
+}
+
+.cresce {
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+
+.encolhe {
+    flex: 1 1 100px;
+}
