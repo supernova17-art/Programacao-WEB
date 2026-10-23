@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de contacto | Thaniel Jorge</title>
+</head>
+<body>
+    <header><h1>Contactar Thaniel Jorge</h1><p>Preenche o formulário para enviar uma mensagem.</p></header>
+    <main>
+        <form action="#" method="post">
+            <p><label for="nome">Nome completo:</label><br>
+            <input type="text" id="nome" name="nome" autocomplete="name" required minlength="2"></p>
+
+            <p><label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" autocomplete="email" required></p>
+
+            <p><label for="telefone">Telefone:</label><br>
+            <input type="tel" id="telefone" name="telefone" autocomplete="tel" placeholder="+351 900 000 000"></p>
+
+            <p><label for="assunto">Assunto:</label><br>
+            <input type="text" id="assunto" name="assunto" required maxlength="100"></p>
+
+            <p><label for="tipo">Tipo de contacto:</label><br>
+            <select id="tipo" name="tipo" required>
+                <option value="">Escolhe uma opção</option>
+                <option value="duvida">Dúvida</option>
+                <option value="projeto">Proposta de projeto</option>
+                <option value="outro">Outro</option>
+            </select></p>
+
+            <p><label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="6" cols="40" required minlength="10" maxlength="1000"></textarea></p>
+
+            <p><input type="checkbox" id="consentimento" name="consentimento" required>
+            <label for="consentimento">Confirmo que os dados fornecidos podem ser usados para responder a esta mensagem.</label></p>
+
+            <p><button type="submit">Enviar mensagem</button>
+            <button type="reset">Limpar formulário</button></p>
+        </form>
+    </main>
+    <footer><p>&copy; 2026 Thaniel Jorge</p></footer>
+</body>
+</html>
